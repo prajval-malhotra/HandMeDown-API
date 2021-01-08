@@ -3,7 +3,7 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const Person = require('../models/person');
 
-const dbURI = 'mongodb+srv://vkk:Databas3@cluster0.vofsx.mongodb.net/htn-airbnb?retryWrites=true&w=majority';
+const dbURI = '<ENTER_DB_URL_HERE>';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // get a list of [persons] from the db
